@@ -1,0 +1,16 @@
+.product-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.input-cart{
+    width:25px;
+}

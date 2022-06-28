@@ -1,12 +1,27 @@
-import './App.css';
-import Weather from './Weather';
+import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Header from './components/Header'
+import '@coreui/coreui/dist/css/coreui.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Cart from './components/Cart'
+
+
 function App() {
   return (
-    <div className="App">
-      <h1>Weather App</h1>
-      <Weather/>
+    <div>
+        <Routes>
+          <Route path='/' element={<Header/>}>
+
+          </Route>
+            <Route path='/products/:id' element={<Cart/>}>
+
+          </Route>
+
+        </Routes> 
+        
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+

@@ -1,0 +1,23 @@
+.navbar{
+    
+    width:100vw;
+    height: 10vh;
+    background-color: white;
+    color: black;
+}
+.search-bar{
+    height: 9vh;
+    width: 100vw;
+    background-color: rgb(4, 67, 18)
+}
+.cart{
+    height:50px;
+    width: 50px;
+}
+.input-group{
+    padding: 12px;
+    
+}
+.form-control{
+    width: 40vw;
+}
